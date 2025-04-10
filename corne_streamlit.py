@@ -13,8 +13,10 @@ from tensorflow.keras.backend import clear_session
 st.set_page_config(page_title="Corn Disease Classification", layout="centered")
 
 # Custom CSS for background, title, and sidebar buttons
+
 custom_css = """
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 /* App background color */
 [data-testid="stAppViewContainer"] {
     background-color: #f0f8ff;
@@ -22,7 +24,9 @@ custom_css = """
 
 /* Title (h1) color */
 h1 {
-    color: #ff6347;  /* Tomato red for interactive appeal */
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    font-weight: 700;
 }
 
 /* Sidebar button styling */
