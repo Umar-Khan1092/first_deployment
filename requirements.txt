@@ -3,5 +3,5 @@ streamlit==1.44.0
 numpy==2.1.3
 tensorflow==2.19.0
 Pillow==11.1.0
-opencv-python==4.11.0
+opencv-python==4.10.0.84
 plotly==6.0.1
